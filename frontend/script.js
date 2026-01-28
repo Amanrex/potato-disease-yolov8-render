@@ -1,5 +1,5 @@
 // ✅ Change this after deploying backend on Render
-const API_URL = "https://YOUR_RENDER_BACKEND_URL.onrender.com/predict";
+const API_URL = "https://potato-disease-yolov8-render.onrender.com";
 
 const imageInput = document.getElementById("imageInput");
 const predictBtn = document.getElementById("predictBtn");
