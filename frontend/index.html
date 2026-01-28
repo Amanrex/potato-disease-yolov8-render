@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Potato Disease Detection - YOLOv8n</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="card">
+    <h1>🥔 Potato Disease Detection</h1>
+    <p class="subtitle">
+      Upload a potato leaf image. Model will classify:
+      <b>Healthy / Early Blight / Late Blight</b>
+    </p>
+
+    <input type="file" id="imageInput" accept="image/*" />
+    <button id="predictBtn">Predict</button>
+
+    <div class="preview">
+      <img id="previewImg" alt="preview" />
+    </div>
+
+    <div class="result" id="resultBox">
+      <p><b>Status:</b> Waiting for image...</p>
+    </div>
+
+    <p class="footer">
+      ⚡ Backend hosted on Render + Frontend on GitHub Pages
+    </p>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>

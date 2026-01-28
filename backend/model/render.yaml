@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: potato-yolov8-backend
+    env: docker
+    plan: free
+    region: oregon
+    rootDir: backend
+    autoDeploy: true
